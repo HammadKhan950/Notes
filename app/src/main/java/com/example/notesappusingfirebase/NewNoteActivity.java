@@ -25,7 +25,7 @@ public class NewNoteActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_note);
         editTextTitle = findViewById(R.id.editTextTitle);
-        editTextDescription = findViewById(R.id.editTextDescription );
+        editTextDescription = findViewById(R.id.descrip);
         numberPicker = findViewById(R.id.numberPickerPriority);
         numberPicker.setMaxValue(10);
         numberPicker.setMinValue(1);

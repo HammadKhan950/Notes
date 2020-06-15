@@ -16,7 +16,7 @@
         android:inputType="text" />
 
     <EditText
-        android:id="@+id/editTextDescription "
+        android:id="@+id/descrip"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Description"
@@ -27,9 +27,10 @@
         android:layout_height="wrap_content"
         android:text="Priority: "
         android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
     <NumberPicker
+        android:id="@+id/numberPickerPriority"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/numberPickerPriority"/>
+        android:layout_height="wrap_content" />
 
 </LinearLayout>
